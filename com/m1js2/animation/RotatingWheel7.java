@@ -2,7 +2,6 @@ package com.m1js2.animation;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
@@ -11,10 +10,12 @@ import javax.swing.JPanel;
 public class RotatingWheel7 extends JPanel{
 
 		
+			/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 			private JFrame window;
 			private Color colors[] = {Color.red,Color.blue,Color.green,Color.yellow,Color.cyan,Color.magenta,Color.magenta,Color.gray,Color.lightGray,Color.PINK};
-			private int speed = 80;
-			private boolean stoped = false;
 			
 					public RotatingWheel7() {
 						window = new JFrame("Window");

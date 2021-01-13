@@ -11,6 +11,10 @@ import javax.swing.JPanel;
 
 public class GrowingCircle1 extends JPanel{
 	
+			/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 			private JFrame window;
 			private Ellipse2D cercle;
 			private float sin;

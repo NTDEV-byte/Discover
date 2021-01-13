@@ -15,12 +15,15 @@ import javax.swing.JPanel;
 
 public class BufferedImageComposition6  extends JPanel{
 	
+		/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 		private JFrame window;
 		private byte data[];
 		private BufferedImage image = null;
 		
 		
-			
 				public BufferedImageComposition6() {
 					window = new JFrame("Window");
 					window.setVisible(true);

@@ -17,6 +17,10 @@ import javax.swing.Timer;
 
 public class Flyer5 extends JPanel{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JFrame window;
 	private Shape shape;
 	private float coords[];

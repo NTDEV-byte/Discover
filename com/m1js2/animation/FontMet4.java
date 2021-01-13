@@ -16,6 +16,10 @@ import javax.swing.Timer;
 
 public class FontMet4 extends JPanel{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JFrame window;
     private Rectangle rect;
     private int size = 10;
@@ -55,5 +59,13 @@ public class FontMet4 extends JPanel{
 		
 				public static void main(String[] args) {
 					  new FontMet4();
+				}
+
+				public Rectangle getRect() {
+					return rect;
+				}
+
+				public void setRect(Rectangle rect) {
+					this.rect = rect;
 				}
 }

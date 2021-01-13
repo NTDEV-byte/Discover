@@ -12,6 +12,10 @@ import javax.swing.JPanel;
 
 public class Fade3 extends JPanel{
 		
+			/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 			private JFrame window;
 		    private Rectangle rect;
 			private float alpha = 1.0f;
