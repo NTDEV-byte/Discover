@@ -39,7 +39,7 @@ public class DoubleBuffering extends JPanel{
 		}
 		/**
 		 * ceci permet de dessiner sur l'image 
-		 * une fois dessiner on dessine l'image
+		 * une fois dessiné on affiche l'image
 		 * ce qui nous permet en quelque sorte de faire du double buffering
 		 */
 		private void drawToBackBuffer() { 
