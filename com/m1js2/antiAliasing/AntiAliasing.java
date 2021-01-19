@@ -1,4 +1,4 @@
-package com.antiAliasing;
+package com.m1js2.antiAliasing;
 
 import java.awt.Color;
 import java.awt.Dimension;

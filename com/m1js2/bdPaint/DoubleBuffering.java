@@ -1,4 +1,4 @@
-package com.bdPaint;
+package com.m1js2.bdPaint;
 
 public class DoubleBuffering {
 

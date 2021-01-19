@@ -1,4 +1,4 @@
-package com.areaCalculation;
+package com.m1js2.areaCalculation;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
