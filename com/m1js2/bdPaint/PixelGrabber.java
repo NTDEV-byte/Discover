@@ -59,7 +59,6 @@ public class PixelGrabber extends JPanel{
 					g.drawImage(image,(getWidth() - WIDTH_IMG) / 2 , (getHeight() - HEIGHT_IMG) / 2,WIDTH_IMG,HEIGHT_IMG,null);
 					repaint();
 				}
-		
 				
 				private void pickRandomColorPerPixel() { 
 					  for(int i=0;i<WIDTH_IMG * HEIGHT_IMG;i++) { 
