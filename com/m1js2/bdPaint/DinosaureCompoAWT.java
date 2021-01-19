@@ -13,7 +13,7 @@ import java.awt.image.BufferStrategy;
 public class DinosaureCompoAWT{
 
 	/**
-	 * 
+	 * Press Win To ESCAPE ;)
 	 */
 	private static final long serialVersionUID = 1L;
 	
