@@ -57,10 +57,8 @@ public class DoubleBuffering extends JPanel{
 			g.drawImage(image, (getWidth() - WIDTH_IMAGE) / 2, (getHeight() - HEIGHT_IMAGE) / 2, WIDTH_IMAGE, HEIGHT_IMAGE,null);
 			repaint();
 		}
-	
-	
-	
-	
+
+		
 	public static void main(String[] args) {
 			 Utils.windowLauncher("DoubleBuffer !",new DoubleBuffering());
 		

@@ -1,7 +1,6 @@
 package com.m1js2.bdPaint;
 
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.GraphicsConfiguration;
@@ -12,13 +11,7 @@ import java.awt.image.BufferStrategy;
 
 public class DinosaureCompoAWT{
 
-	/**
-	 * Press Win To ESCAPE ;)
-	 */
-	private static final long serialVersionUID = 1L;
-	
-		
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 			GraphicsDevice gd = ge.getDefaultScreenDevice();
 			
