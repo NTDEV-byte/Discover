@@ -9,7 +9,7 @@ import java.awt.geom.Rectangle2D;
 
 import javax.swing.JPanel;
 
-public class ClippedTextRect extends JPanel{
+public class ClippedTextRect0 extends JPanel{
 		
 		
 		
@@ -56,6 +56,6 @@ public class ClippedTextRect extends JPanel{
 		
 
 			public static void main(String[] args) {
-				 com.utils.Utils.windowLauncher("Test", new ClippedTextRect());
+				 com.utils.Utils.windowLauncher("Test", new ClippedTextRect0());
 			}
 }
