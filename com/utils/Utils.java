@@ -16,7 +16,6 @@ public class Utils {
 		
 		public static void windowLauncher(String title,JPanel panel) { 
 			 	JFrame window = new JFrame(title);
-			 	window.setPreferredSize(new Dimension(800,600));
 			 	window.setLocationRelativeTo(null);
 			 	window.setVisible(true);
 			 	window.setResizable(false);

@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 import com.utils.Utils;
 
-public class ClipHypno extends JPanel{
+public class ClipHypno1 extends JPanel{
 
 	
 	
@@ -38,7 +38,7 @@ public class ClipHypno extends JPanel{
 			
 			
 			
-			public ClipHypno() { 
+			public ClipHypno1() { 
 				this.setPreferredSize(new Dimension(WIDTH,HEIGHT));
 				loadIMG();
 				coords = new int[2 + 2 * 4];
@@ -79,7 +79,7 @@ public class ClipHypno extends JPanel{
 			}
 			
 			public void update() {
-				 Dimension size = ClipHypno.this.getSize();
+				 Dimension size = ClipHypno1.this.getSize();
 				 int limit;
 				 if(size.width == 0 || size.height == 0) { 
 					  System.err.println("null window");
@@ -114,6 +114,6 @@ public class ClipHypno extends JPanel{
 			}
 	
 			public static void main(String[] args) {
-				Utils.windowLauncher("ClipDemo", new ClipHypno());
+				Utils.windowLauncher("ClipDemo", new ClipHypno1());
 			}
 }
