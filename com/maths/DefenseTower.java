@@ -92,7 +92,7 @@ public class DefenseTower extends JPanel{
 						
 						public void update() { 
 							if(timer < 7500) timer++; else timer = 0;
-							if(timer % 30 == 0) { 
+							if(timer % 150 == 0) { 
 								dx = (((int)(Math.random() * 4)) - 1);
 								dy = (((int)(Math.random() * 4)) - 1);
 							}
@@ -126,7 +126,7 @@ public class DefenseTower extends JPanel{
 				
 				private static class Tower{ 
 					
-					public static int RAYON_DETECTION = 300;
+					public static int RAYON_DETECTION = 50;
 					
 					private Rectangle bounds;
 					private double angle;

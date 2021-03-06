@@ -8,11 +8,7 @@ import javax.swing.JPanel;
 public class Utils {
 		
 		private Utils() {
-			
-		
 		}
-
-		
 		
 		public static void windowLauncher(String title,JPanel panel) { 
 			 	JFrame window = new JFrame(title);
@@ -34,4 +30,5 @@ public class Utils {
 		 	window.add(panel);
 		 	window.pack();
 	}
+		
 }
